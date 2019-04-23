@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<VTKFile type="PUnstructuredGrid" version="0.1" byte_order="LittleEndian">
+  <PUnstructuredGrid GhostLevel="0">
+    <PPoints>
+      <PDataArray type="Float32" NumberOfComponents="3" Name="Points"/>
+    </PPoints>
+    <Piece Source="T0000001000/000.vtu"/>
+    <Piece Source="T0000001000/001.vtu"/>
+    <Piece Source="T0000001000/002.vtu"/>
+    <Piece Source="T0000001000/003.vtu"/>
+    <Piece Source="T0000001000/004.vtu"/>
+    <Piece Source="T0000001000/005.vtu"/>
+    <Piece Source="T0000001000/006.vtu"/>
+    <Piece Source="T0000001000/007.vtu"/>
+    <PPointData>
+      <PDataArray type="Int32" Name="simerr_type"/>
+      <PDataArray type="Float32" Name="density"/>
+      <PDataArray type="Float32" Name="velocity" NumberOfComponents="3"/>
+    </PPointData>
+    <PCellData>
+      <PDataArray type="Float32" Name="temperature"/>
+    </PCellData>
+  </PUnstructuredGrid>
+</VTKFile>

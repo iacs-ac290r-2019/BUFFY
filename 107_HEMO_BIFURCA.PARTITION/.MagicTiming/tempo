@@ -1,0 +1,27 @@
+ # Number of MPI Processes:           8
+
+********** GLOBAL TIMINGS (full simulation) **********
+
+   ( 36.8%)                    LB                     collinoiseMoveMS_OR        0.580E-01        1001   0.472E-01   0.580E-01
+   ( 33.5%)                    LB                                 content        0.351E-01        1503   0.552E-02   0.351E-01
+   ( 12.4%)                    LB                               hvarFluid        0.130E-01        1503   0.107E-01   0.130E-01
+   ( 12.2%)                    LB                    collinoiseMoveMS_ADR        0.383E-01         502   0.329E-01   0.383E-01
+   (  9.2%)                    LB                         write_field_vtk        0.721E-02        2002   0.417E-02   0.721E-02
+   (  4.1%)                    LB                           buildforcemix        0.426E-02        1503   0.645E-03   0.426E-02
+   (  0.5%)                    LB                               bariFluid        0.475E-03        1505   0.734E-04   0.475E-03
+   (  0.1%)                    LB                               hvarFluid        0.921E-01           2   0.225E-01   0.921E-01
+   (  0.1%)                    LB                         bc_inlet_outlet        0.550E-04        1505   0.304E-04   0.550E-04
+   (  0.0%)                    LB                   stop_com_fluid_specie        0.246E-04        1503   0.134E-05   0.246E-04
+   (  0.0%)                    LB                   do_cap_velocity_fluid        0.198E-04        1503   0.154E-05   0.198E-04
+   (  0.0%)                    LB                 PrecollinoiseMoveMS_ADR        0.504E-04         502   0.789E-06   0.504E-04
+   (  0.0%)                    LB                          fluid_dump_out        0.685E-05        2002   0.140E-05   0.685E-05
+   (  0.0%)                    LB                  PrecollinoiseMoveMS_OR        0.106E-04        1001   0.781E-06   0.106E-04
+   (  0.0%)               TRACKER                           tracker_fluid        0.134E-03          22   0.107E-05   0.134E-03
+   (  0.0%)               TRACKER                  tracker_register_fluid        0.203E-05           2   0.134E-05   0.203E-05
+
+(  0.0%) LB    0.00     sec/call, 0 calls,   0.00     calls/step
+
+(  0.0%) TRACKER    0.00     sec/call, 0 calls,   0.00     calls/step
+
+Sum of section timings:       0.000
+
